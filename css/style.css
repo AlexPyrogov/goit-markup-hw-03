@@ -23,7 +23,10 @@ body{
 a:hover, a:active{
   color: var(--accent-color);
 }
-
+ul {
+  margin: 0;
+  padding: 0;
+}
 li {
   list-style: none;
 }
@@ -33,6 +36,7 @@ h3 {
 }
 .hero{
   background-color: var(--secondary-text-color);
+  text-align: center;
 }
 .transcendency{
   font-size: 14px;
@@ -44,10 +48,13 @@ h3 {
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .section-title{
   color: var(--secondary-text-color);
   font-size: 36px;
+  margin-top: 0;
 }
 .name-title{
   color: var(--secondary-text-color);
@@ -117,6 +124,12 @@ h3 {
   border-width: 0px;
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
+  min-width: 200px;
+  line-height: 30px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
 }
 .heder-button:hover,
 .heder-button:active {
@@ -126,7 +139,7 @@ h3 {
   font-weight: 500;
   font-size: 16px;
 }
-.button:hover, .button:active {
+.pbutton:hover, .pbutton:active {
   color: var(--white-color);
   background-color: var(--accent-color);
   border-width: 0px;
@@ -134,10 +147,15 @@ h3 {
   font-size: 16px;
   cursor: pointer;
 }
-.button{
+.pbutton{
   color: var(--secondary-text-color);
   background-color: var(--secondary-background-color);
   border-width: 0px;
   font-weight: 500;
   font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px 22px;
+  display: inline-block;
 }

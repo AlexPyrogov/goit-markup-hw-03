@@ -34,15 +34,28 @@ li {
 h3 {
   color: var(--secondary-text-color);
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .hero{
   background-color: var(--secondary-text-color);
   text-align: center;
 }
 .transcendency{
   font-size: 14px;
+  padding-bottom: 0;
 }
-.our-team{
+.team{
   font-size: 16px;
+  background-color: var(--secondary-background-color);
+}
+.team p{
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.team ul{
+  background-color: var(--white-color);
 }
 .hero-title{
   color: var(--white-color);
@@ -55,9 +68,16 @@ h3 {
   color: var(--secondary-text-color);
   font-size: 36px;
   margin-top: 0;
+  margin-bottom: 50px;
 }
 .name-title{
   color: var(--secondary-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.list-title{
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .project-title{
   color: var(--secondary-text-color);

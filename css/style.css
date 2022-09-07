@@ -18,6 +18,7 @@ font-family: 'Roboto', sans-serif; */
 body{
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
+  width: 1600px;
 }
 
 a:hover, a:active{
@@ -34,11 +35,31 @@ li {
 h3 {
   color: var(--secondary-text-color);
 }
+.hidden{
+  display: none;
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.section ul{
+  display: flex;
+  justify-content: space-between;
+}
+.header{
+  display: flex;
+  align-items: center;
+  padding: 0 215px;
+  justify-content: space-between;
+}
+.nav{
+  display: flex;
+  align-items: center;
 }
 .hero{
+  padding: 200px 0;
   background-color: var(--secondary-text-color);
   text-align: center;
 }
@@ -50,12 +71,29 @@ h3 {
   font-size: 16px;
   background-color: var(--secondary-background-color);
 }
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio{
+  padding: 28px 247px 160px 183px;
+}
+.sorting{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.sorting li+li{
+  margin-left: 8px;
+}
+.projects img{
+  margin-bottom: 20px;
+}
 .team p{
   margin-top: 0;
   margin-bottom: 30px;
 }
 .team ul{
-  background-color: var(--white-color);
   text-align: center;
 }
 .hero-title{
@@ -84,18 +122,41 @@ h3 {
 .project-title{
   color: var(--secondary-text-color);
   font-size: 18px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 0;
 }
 .project-text{
   color: var(--primary-text-color);
   font-size: 16px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 0;
+}
+.site-nav{
+  display: flex;
+}
+.site-nav li+li{
+  margin-left: 50px;
 }
 .nav-link{
+  display: block;
   color: var(--secondary-text-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-contact{
+  display: flex;
+}
+.nav-contact li+li{
+  margin-left: 50px;
+}
+.contact{
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -103,6 +164,7 @@ h3 {
 }
 .logo-link {
   text-decoration: none;
+  margin-right: 93px;
 }
 .footer {
   background-color: var(--footer-background-color);
